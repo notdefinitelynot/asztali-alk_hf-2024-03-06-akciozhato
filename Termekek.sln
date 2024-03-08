@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termekek", "Termekek\Termekek.csproj", "{F11345BB-98C9-44B8-9E6E-0957B2C72642}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vegyesbolt", "Vegyesbolt\Vegyesbolt.csproj", "{0F57102F-44DD-4B3E-BD30-EA0759EA6704}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F11345BB-98C9-44B8-9E6E-0957B2C72642} = {F11345BB-98C9-44B8-9E6E-0957B2C72642}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F11345BB-98C9-44B8-9E6E-0957B2C72642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F11345BB-98C9-44B8-9E6E-0957B2C72642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F11345BB-98C9-44B8-9E6E-0957B2C72642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F11345BB-98C9-44B8-9E6E-0957B2C72642}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F57102F-44DD-4B3E-BD30-EA0759EA6704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F57102F-44DD-4B3E-BD30-EA0759EA6704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F57102F-44DD-4B3E-BD30-EA0759EA6704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F57102F-44DD-4B3E-BD30-EA0759EA6704}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B8ECE63-FFB5-4C0C-BC6C-68107383FB69}
+	EndGlobalSection
+EndGlobal

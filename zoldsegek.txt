@@ -1,0 +1,3 @@
+salata;400;2
+paradicsom;540;0.5
+salata;349;5
